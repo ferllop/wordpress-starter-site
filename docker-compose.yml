@@ -26,6 +26,6 @@ services:
       MYSQL_PASSWORD: dbuserpass
       MYSQL_ROOT_PASSWORD: dbrootpass
     volumes:
-      - ./initial-wordpress-database-state.sql:/docker-entrypoint-initdb.d/initial.sql
-#     - ./dbdata:/var/lib/mysql
+      - ./containers/initial-wordpress-database-state.sql:/docker-entrypoint-initdb.d/initial.sql
+#     - ./containers/dbdata:/var/lib/mysql
 

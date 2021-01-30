@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker-compose -f ./containers/docker-compose.yml up -d
+docker-compose up -d
 
 ## Backup
 #docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > backup.sql
