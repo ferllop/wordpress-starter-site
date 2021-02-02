@@ -14,8 +14,8 @@ services:
       WORDPRESS_TABLE_PREFIX: tableprefix_
       WORDPRESS_DEBUG: 1
 #   volumes:
-#      - ../mytheme:/var/www/html/wp-content/themes/mytheme
-#      - ../myplugin:/var/www/html/wp-content/plugins/myplugin
+#      - ../src:/var/www/html/wp-content/themes/mytheme
+#      - ../src:/var/www/html/wp-content/plugins/myplugin
 
   mariadb:
     image: mariadb:10.5.4-focal
